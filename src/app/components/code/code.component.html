@@ -1,0 +1,10 @@
+<div>
+  <div *ngFor="let repo of repos">
+    <h1><i class="fa fa-github" aria-hidden="true"></i> <a [href]="repo.url">{{ repo.name }}</a></h1>
+    {{ repo.description }}
+    <div class="item-dates">
+      <span>Last push - {{ repo.lastPushDate | date: 'dd MMM yyyy' }}</span>
+      <span>Created - {{ repo.createdDate | date: 'dd MMM yyyy' }}</span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<app-blog-menu></app-blog-menu>
+<div class="posts">
+  <div class="post" *ngFor="let blog of blogs">
+    <h1>{{ blog.title ? blog.title : '' }}</h1>
+    <p>{{ blog.publishDate | date: 'dd MMM yyyy' }}</p>
+    <div class="body" [innerHtml]="blog.body">{{ blog.body }}</div>
+  </div>
+</div>
+  

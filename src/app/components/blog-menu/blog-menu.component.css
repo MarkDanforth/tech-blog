@@ -1,0 +1,29 @@
+:host {
+    align-self: center;
+    filter: blur(1px);
+    transition: filter 500ms;
+    height: 90%;    
+}
+
+:host:hover {
+    align-self: center;
+    filter: blur(0px);
+}
+
+li {
+    display: block;
+    width: 10vw;
+    min-width: 100px;
+    background-color: #f6ffff;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+li a {
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}

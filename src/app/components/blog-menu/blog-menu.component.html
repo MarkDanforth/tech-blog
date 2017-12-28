@@ -1,0 +1,8 @@
+<nav>
+    <ul>
+        <li *ngFor="let blog of blogList">
+            <a [routerLink]="['/blog', blog.id]">{{ blog.title }}</a><br />
+            {{ blog.publishDate | date: 'dd MMM yyyy' }}
+        </li>
+    </ul>
+</nav>

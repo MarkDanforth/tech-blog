@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main-content {
+    display: flex;
+    padding-left: 8vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+ul {
+    padding: 0;
+}

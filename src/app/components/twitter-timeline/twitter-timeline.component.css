@@ -1,0 +1,10 @@
+:host {
+    width: 30%;
+    margin-left: 10%;
+    min-width: 300px;
+    align-self: center;
+    padding: 0px 10px;
+    height: 80%;
+    overflow-y: auto;
+}
+

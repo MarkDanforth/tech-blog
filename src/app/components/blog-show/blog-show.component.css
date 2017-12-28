@@ -1,0 +1,21 @@
+:host {
+    width: 40%;
+    min-width: 300px;
+    align-self: center;
+    display: flex;
+    padding: 0px 10px;
+    height: 80%;
+}
+
+.posts {
+    width:80%;
+    background-color: #fffbfb;
+    overflow-y: auto;
+    display: inline-block;
+    height: 100%;
+    align-self: center;
+}
+
+div.post .body {
+    white-space: pre-line;
+}
