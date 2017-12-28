@@ -13,7 +13,6 @@ export class TwitterTimelineComponent implements OnDestroy {
     private twitter: any;
 
   constructor(private router: Router) { 
-      console.log("Twitter timeline constructor");
       this.initTwitterWidget();
   }
 
